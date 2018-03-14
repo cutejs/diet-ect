@@ -1,5 +1,11 @@
-# **diet-ect**
+# **diet-ect-fix**
 HTML template engine module for [diet](http://dietjs.com) based on [ect][1]. The Fastest JavaScript template engine with embedded CoffeeScript syntax.
+
+Adam appears to have abandoned Diet, and I'm sick of having to manually fix this every time I start a new Diet project.
+
+This fork fixes 2 problems:
+ - Actually able to render pages other than "index.html"
+ - Sends a status code of 200 instead of 404 when serving pages
 
 ```js
 {{ if this.page is 'home' :}}

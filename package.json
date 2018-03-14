@@ -1,8 +1,8 @@
 {
-  "name": "diet-ect",
+  "name": "diet-ect-fix",
   "version": "1.0.0",
-  "description": "ECT based diet plugin for rendering Dynamic HTML files",
-  "homepage": "http://github.com/adamhalasz/diet-ect/",
+  "description": "ECT based diet plugin for rendering Dynamic HTML files. With some fixes.",
+  "homepage": "http://github.com/cutejs/diet-ect/",
   "keywords": [
     "ect",
     "html",
@@ -15,18 +15,22 @@
     "diet.js"
   ],
   "bugs": {
-    "url": "http://github.com/adamhalasz/diet-ect/issues",
-    "email": "mail@adamhalasz.com"
+    "url": "http://github.com/cutejs/diet-ect/issues",
+    "email": "pfesznguyen@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adamhalasz/diet-ect.git"
+    "url": "https://github.com/cutejs/diet-ect.git"
   },
   "license": "MIT",
   "author": {
     "name": "Halász Ádám",
     "email": "mail@adamhalasz.com",
     "url": "http://adamhalasz.com/"
+  },
+  "contributors": {
+    "name": "Peter Fesz-Nguyen",
+    "email": "pfesznguyen@gmail.com"
   },
   "dependencies": {
     "clone": "0.1.18",
